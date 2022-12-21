@@ -29,21 +29,40 @@ body {
     
 }
 header{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
+
 
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 header > p {
+   
     color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 nav{
     background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+    text-align: end;
     
 }
+
 main{
     background-color: white;
     min-width: 300px;
@@ -66,6 +85,7 @@ main img.pequena{
     display: block;
 }
 
+
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
@@ -73,10 +93,21 @@ main h1{
 main h2{
     font-family: var(--fonte-android);
 }
+main p{
+    text-align: justify;
+}
 footer{
     background-color: var(--cor5);
     color: white;
 }
 nav > a{
     color: yellow;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+nav > a:hover{
+    background-color: var(--cor2);
 }
