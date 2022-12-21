@@ -42,6 +42,7 @@ header > p {
 
 nav{
     background-color: var(--cor5);
+    color: white;
 }
 main{
     background-color: white;
