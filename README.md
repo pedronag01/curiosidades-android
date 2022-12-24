@@ -1,4 +1,4 @@
-# curiosidades-android
-## view the website here
+# Curiosidades Android
+## Link para o site
 * https://pedronag01.github.io/curiosidades-android/
  
